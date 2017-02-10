@@ -1,0 +1,29 @@
+.nav-menu {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #648fdd;
+  transform: translateX(101%);
+  transition-property: box-shadow, transform;
+  transition-duration: .3s;
+  transition-timing-function: linear;
+  z-index: 3;
+  @include positions(0,0,0,0);
+
+  > .item {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    @include font-size(20px);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.js-menu-active .nav-menu {
+  transform: translateX(0);
+  box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+}

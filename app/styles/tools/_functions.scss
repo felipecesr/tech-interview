@@ -1,0 +1,16 @@
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@function asset($type, $file) {
+  @return url('../' + $type + '/' + $file);
+}
+
+@function image($file) {
+  @return asset('images', $file);
+}
+
+@function font($file) {
+  @return asset('fonts', $file);
+}
