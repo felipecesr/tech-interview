@@ -4,8 +4,9 @@
   color: #fff;
   padding-top: 144px;
   padding-bottom: 24px;
+  margin-bottom: 24px;
   position: relative;
-  @include font-size(18px);
+  @include font-size(16px);
 
   &::before {
     content: '';
@@ -35,21 +36,4 @@
     letter-spacing: 1px;
     margin-bottom: 30px;
   }
-
-  // .button {
-  //   display: inline-block;
-  //   @include media(small) {
-  //     font-size: 1rem;
-  //   }
-  // }
-
-  // @include media(small) {
-  //   background-position-y: 50%;
-  //   padding-top: 120px;
-
-  //   &.content-box {
-  //     padding-left: 0;
-  //     padding-right: 0;
-  //   }
-  // }
 }
