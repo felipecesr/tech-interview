@@ -1,0 +1,16 @@
+.thumbnail {
+  position: relative;
+  width: auto;
+  height: 272px;
+  border-radius: 7px;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    transform: translate(-50%,-50%);
+  }
+}

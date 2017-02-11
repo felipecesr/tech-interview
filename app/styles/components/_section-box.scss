@@ -1,0 +1,12 @@
+.section-box {
+  margin-bottom: 80px;
+  
+  .thumbnail {
+    margin-bottom: 40px;
+  }
+
+  .sectiontitle,
+  p:not(:last-child) {
+      margin-bottom: 35px;
+  }
+}

@@ -12,7 +12,10 @@
         "scss/bootstrap.scss",
         "dist/js/bootstrap.js"
       ]
-    }
+    },
+    "flexboxgrid-sass": [
+      "flexboxgrid.scss"
+    ]
   },
   "devDependencies": {
     "chai": "~3.5.0",

@@ -1,0 +1,9 @@
+.footer-box {
+  border-top: 1px solid #efeff0;
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #c8c7c7;
+  text-align: center;
+  padding: 10px 0 23px;
+  @include font-size(11px);
+}
