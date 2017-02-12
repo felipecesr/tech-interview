@@ -1,12 +1,23 @@
 .section-box {
   margin-bottom: 80px;
-  
+
   .thumbnail {
     margin-bottom: 40px;
+    @include media(small) {
+      margin-bottom: 0;
+    }
   }
 
   .sectiontitle,
   p:not(:last-child) {
       margin-bottom: 35px;
+  }
+
+  @include media(small) {
+    .thumbnail,
+    .sectiontitle,
+    p {
+      padding-left: 35px;
+    }
   }
 }

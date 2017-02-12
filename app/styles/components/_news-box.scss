@@ -1,0 +1,39 @@
+.news-box {
+  display: none;
+  @include media(small) {
+    position: relative;
+    display: block;
+    z-index: 2;
+    padding: 24px 0;
+    background-color: rgba(0,0,0,.5);
+  }
+
+  li {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    &:not(:last-child)::before {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 70px;
+      width: 1px;
+      right: 0;
+      background: #fff;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .trending {
+    text-align: right;
+    line-height: 1.5em;
+    @include font-size(20px);
+
+    span {
+      display: block;
+      color: $blue;
+    }
+  }
+}
