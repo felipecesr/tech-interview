@@ -55,9 +55,9 @@
     </header>
 
     <!-- Carousel -->
-    <div class="wrap content">
-        <ul class="post-box">
-            <li class="post-body">
+    <div class="wrap">
+        <ul class="js-carousel post-box">
+            <li class="js-seat post-body">
                 <div class="thumbnail">
                     <a href="#">
                       <img src="/images/43690.jpg" alt="post thumbnail">
@@ -70,9 +70,39 @@
                     </a>
                 </div>
             </li>
-            <li></li>
-            <li></li>
+            <li class="js-seat post-body">
+                <div class="thumbnail">
+                    <a href="#">
+                      <img src="/images/43690.jpg" alt="post thumbnail">
+                    </a>
+                </div>
+                <div class="text">
+                    <a href="#">
+                        <h2 class="posttitle">International Space Station</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
+                    </a>
+                </div>
+            </li>
+            <li class="js-seat post-body -ref">
+                <div class="thumbnail">
+                    <a href="#">
+                      <img src="/images/43690.jpg" alt="post thumbnail">
+                    </a>
+                </div>
+                <div class="text">
+                    <a href="#">
+                        <h2 class="posttitle">International Space Station</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus aliquet sapien….</p>
+                    </a>
+                </div>
+            </li>
         </ul>
+    </div>
+
+    <!-- Controls -->
+    <div class='controls'>
+        <button class='js-prev'>Prev</button>
+        <button class='js-next'>Next</button>
     </div>
 
     <!-- About -->
@@ -88,7 +118,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer-box">
+    <footer class="footer-box container">
         <p>© 2016 Created by Joyjet</p>
         <p>Digital Space Agency</p>
     </footer>
@@ -105,6 +135,7 @@
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/nav_menu.js"></script>
+    <script src="scripts/carousel.js"></script>
     <!-- endbuild -->
   </body>
 </html>

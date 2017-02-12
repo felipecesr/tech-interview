@@ -7,6 +7,10 @@
   margin-bottom: 24px;
   position: relative;
   @include font-size(16px);
+  @include media(small) {
+    padding-top: 170px;
+    padding-bottom: 66px;
+  }
 
   &::before {
     content: '';
@@ -25,6 +29,9 @@
 
   .title {
     margin-bottom: 20px;
+    @include media(small) {
+      margin-bottom: 13px;
+    }
 
     &::after {
       content: '.';
@@ -35,5 +42,9 @@
   .resume {
     letter-spacing: 1px;
     margin-bottom: 30px;
+    max-width: 500px;
+    @include media(small) {
+      margin-bottom: 50px;
+    }
   }
 }

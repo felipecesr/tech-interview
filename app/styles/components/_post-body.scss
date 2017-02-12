@@ -1,4 +1,6 @@
 .post-body {
+  flex: 1 0 100%;
+  order: 2;
   color: #9ea4b5;
   background-color: #fff;
   border-radius: 0 0 7px 7px;
@@ -15,5 +17,9 @@
 
   .posttitle {
     margin-bottom: 10px;
+  }
+
+  &.-ref {
+    order: 1;
   }
 }

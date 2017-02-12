@@ -11,11 +11,23 @@
   transition-timing-function: linear;
   z-index: 3;
   @include positions(0,0,0,0);
+  @include media(small) {
+    position: relative;
+    display: inline-block;
+    background: none;
+    transform: translateX(0);
+  }
 
   > .item {
     margin-bottom: 50px;
     text-transform: uppercase;
     @include font-size(20px);
+    @include media(small) {
+      display: inline-block;
+      margin-bottom: 0;
+      margin-left: 40px;
+      @include font-size(14px);
+    }
 
     &:last-child {
       margin-bottom: 0;

@@ -1,5 +1,8 @@
 .title {
   @include font-size(48px);
+  @include media(small) {
+    @include font-size(110px);
+  }
 }
 
 .posttitle {
