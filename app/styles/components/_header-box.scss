@@ -10,6 +10,7 @@
   @include media(small) {
     padding-top: 170px;
     padding-bottom: 0;
+    margin-bottom: 90px;
 
     .btn {
       margin-bottom: 66px;
@@ -23,7 +24,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(#000, .2);
+    background-color: rgba(#000, .4);
   }
 
   > .container {
