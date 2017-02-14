@@ -1,9 +1,5 @@
 .post-box {
   margin-bottom: 64px;
-  // transform: translateX(-100%);
-  @include media(small) {
-    display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+  overflow: hidden;
+  outline: 0;
 }

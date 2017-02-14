@@ -1,6 +1,7 @@
 .header-box {
-  background: image('43688.jpg');
+  background: image('md-43688.jpg');
   background-size: cover;
+  background-position: 50% 0;
   color: #fff;
   padding-top: 144px;
   padding-bottom: 24px;
@@ -11,6 +12,8 @@
     padding-top: 170px;
     padding-bottom: 0;
     margin-bottom: 90px;
+    background: image('lg-43688.jpg');
+    background-position: 0 70%;
 
     .btn {
       margin-bottom: 66px;

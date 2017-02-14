@@ -1,7 +1,9 @@
-'use strict'
+(function() {
+  'use strict'
 
-const $btnMenu = document.querySelector('.btnmenu');
+  var $btnMenu = document.querySelector('.btnmenu');
 
-$btnMenu.addEventListener('click', function() {
-  document.documentElement.classList.toggle('js-menu-active')
-});
+  $btnMenu.addEventListener('click', function() {
+    document.documentElement.classList.toggle('js-menu-active')
+  });
+})();
