@@ -21,12 +21,17 @@
   > .item {
     margin-bottom: 50px;
     text-transform: uppercase;
+    transition: color .3s ease;
     @include font-size(20px);
     @include media(small) {
       display: inline-block;
       margin-bottom: 0;
       margin-left: 40px;
       @include font-size(14px);
+    }
+
+    &:hover {
+      color: darken(#fff, 15%);
     }
 
     &:last-child {
